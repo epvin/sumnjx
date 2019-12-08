@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+		<title>计算机应用与发展协会</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<!----------------Global css------------------->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="vendors/revolution-slider/css/layers.css">
+		<link rel="stylesheet" href="vendors/revolution-slider/css/navigation.css">
+		<link rel="stylesheet" href="vendors/revolution-slider/css/settings.css">
+		<link rel="stylesheet" href="vendors/imagehover/css/imagehover.min.css">
+		<link rel="stylesheet" href="vendors/animate/animate.min.css">
+		<link rel="stylesheet" href="vendors/iCheck/css/all.css">
+		<link rel="stylesheet" href="vendors/sweetalert2/css/sweetalert2.min.css">
+		<!----------------custo css----------------->
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/new.css">
+	</head>
+	<body>
+		<!-------------------Preloader---------------->
+		<div class="preloader" style="position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:100000;
+    backface-visibility: hidden;
+    background: #ffffff;">
+			<div style=" width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-position: center;
+    margin:-25px 0 0 -25px;">
+				<img src="images/loader.gif" alt="loading...">
+			</div>
+		</div>
+		<!----------------Preloader end----------------->
+		<!-------------Header--------->
+		<header>
+			<div class="container">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="login/login.html">
+							<img src="images/headerimage.jpg" class="headerimg" alt="头像">
+						</a>
+					</div>
+					<div class="collapse navbar-collapse navbar-right" id="myMegamenu">
+						<ul class="nav navbar-nav">
+							<li class="list2"><a href="index.html" class="hvr-underline-from-center">首页</a></li>
+							<li class="list2"><a href="weixiu/weixiu.html" class="hvr-underline-from-center">维修站</a></li>
+							<li class="list2"><a href="couse/courses.html" class="hvr-underline-from-center">资源中心</a></li>
+							<li class="list2"><a href="activity/activity.html" class="hvr-underline-from-center">社团活动</a></li>
+							<li class="list2"><a href="contact/contact.html" class="hvr-underline-from-center">联系我们</a></li>
+							<li class="list2"><a href="adminlogin/index.html" class="hvr-underline-from-center">社团管理</a></li>
+						</ul>
+					</div>
+
+				</nav>
+			</div>
+		</header>
+		<!-------------------------slider----------------------->
+		<div class="tp-banner-container rev_slider_wrapper fullwidthbanner-container" data-alias="news-hero72">
+			<div class="home_slider">
+				<ul>
+					<li data-index="rs-10" data-transition="fade" data-slotamount="7" class="bg-light" data-easein="Power4.easeInOut"
+					 data-delay="5000" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-saveperformance="off"
+					 data-title="Love it?" data-description="">
+						<img src="images/new_slider1.jpg" alt="systemimg" data-kenburns="off" data-bgposition="center center"
+						 data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0"
+						 data-rotateend="0" data-offsetstart="0 -500" data-bgfit="cover" data-offsetend="0 500" data-bgparallax="10"
+						 class="rev-slidebg" data-no-retina>
+						<div class="tp-caption  sfb tp-resizeme" data-x="center" data-y="120" data-speed="700" data-start="1000"
+						 data-easing="Power0.easeInOut" data-splitin="words" data-splitout="none" data-elementdelay="0.1"
+						 data-endelementdelay="0.1" style="z-index: 5; max-width: inherit; max-height: inherit; white-space: nowrap;color: #fff;font-size:60px;font-family: lato">
+							WELCOME TO
+						</div>
+						<div class="tp-caption sft tp-resizeme" data-x="center" data-y="200" data-speed="700" data-start="1000"
+						 data-easing="Power0.easeInOut" data-splitin="words" data-splitout="none" data-elementdelay="0.1"
+						 data-endelementdelay="0.1" style="z-index: 5; max-width: inherit; max-height: inherit; white-space: nowrap;color: #fff;font-size:70px;font-family: lato">
+							西南民族大学计算机应用与发展协会
+						</div>
+
+						<div class="hidden-xs tp-caption  sfl tp-resizeme" data-x="430" data-y="340" data-speed="1000" data-start="2000"
+						 data-easing="Power3.easeInOut" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5;">
+							<a href="about/about.html" class="slider_btn hvr-shutter-out-horizontal">LEARN MORE</a>
+						</div>
+						<div class="hidden-xs tp-caption  sfr tp-resizeme" data-x="600" data-y="340" data-speed="1000" data-start="2000"
+						 data-easing="Power3.easeInOut" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5">
+							<a href="login/login.html" class="slider_btn">JOIN US NOW</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-------------------Slider end----------------->
+		<!----------------Body Section Start--------------->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5">
+					<br>
+					<br>
+					<img src="images/about_img.png" alt="boyimg" class="img-responsive">
+				</div>
+				<div class="col-sm-7 section-top-40">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="about_col_space">
+								<div class="row profile1">
+									<div class="col-md-3 col-sm-3 col-xs-3 section-top-20">
+										<img src="images/responsible-energy-use.png" class="img-responsive" alt="about_icons">
+									</div>
+									<div class="profile_data col-md-9 col-sm-9 col-xs-9 section-top-20">
+										<a href="about/about.html">
+											<h5 class="profile_data">外宣部</h5>
+										</a>
+										<p class="profile_data">具体负责协会活动的宣传，活动宣传单、海报的制作以及协会微博、微信平台的管理。...
+											<br /><a href="about/about.html" class="text-success">
+												Read more</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="about_col_space">
+								<div class="row profile1">
+									<div class="col-md-3  col-xs-3 section-top-20">
+										<img src="images/global.png" class="img-responsive" alt="about_icons">
+									</div>
+									<div class="profile_data col-md-9  col-xs-9 section-top-20">
+										<a href="about/about.html">
+											<h5 class="profile_data">维修部</h5>
+										</a>
+										<p class="profile_data">知识那么多当然还得学以致用，维修部定期举办义务咨询与开展电脑义务维修活动，另外新推出上门维修服务，使同学们得到更好的、快捷的维修服务 ...
+											<br /><a href="about/about.html" class="text-success">
+												Read more</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="about_col_space">
+								<div class="row profile1">
+									<div class="col-md-3  col-xs-3 section-top-20">
+										<img src="images/diversity.png" class="img-responsive" alt="about_icons">
+									</div>
+									<div class="profile_data col-md-9  col-xs-9 section-top-20">
+										<a href="about/about.html">
+											<h5 class="profile_data">办公室</h5>
+										</a>
+										<p class="profile_data">倘若你有好的想法和强大的协调能力却又苦于无人问津，那就一定要来这里，用你的细心、耐性来展现你的智慧！...
+											<br /><a href="about/about.html" class="text-success">
+												Read more</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="about_col_space">
+								<div class="row profile1">
+									<div class="col-md-3 col-sm-3 col-xs-3 section-top-20">
+										<img src="images/leadrship.png" class="img-responsive" alt="about_icons">
+									</div>
+									<div class="profile_data col-md-9 col-sm-9 col-xs-9 section-top-20">
+										<a href="about/about.html">
+											<h5 class="profile_data">技术部</h5>
+										</a>
+										<p class="profile_data">该部门主要负责协会计算机技术培训和技术交流。包括对协会内部成员进行培训、担当各种比赛及活动的技术指导 ...
+											<br /><a href="about/about.html" class="text-success">
+												Read more</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="about_col_space">
+								<div class="row profile1">
+									<div class="col-md-3 col-sm-3 col-xs-3 section-top-20">
+										<img src="images/light-bulb.png" class="img-responsive" alt="about_icons">
+									</div>
+									<div class="profile_data col-md-9 col-sm-9 col-xs-9 section-top-20">
+										<a href="about/about.html">
+											<h5 class="profile_data">研发部</h5>
+										</a>
+										<p class="profile_data">研发部是计算机应用与发展协会的主要部门，本部门主要是为了一部分深入学习的同学而建立的，其目的是培养一批技术能力强，能独自完成大型项目的尖端人才...
+											<br /><a href="about/about.html" class="text-success">
+												Read more</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-------------about end----------->
+		<section class="home3_countup_section parallax m-t-70">
+			<div class="container  section-bottom-pad-40">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3  section-top-40 text-center">
+						<h2 class="text-white heading2 underline2 section-top-25">我们的成员</h2>
+						<p class="text-white text-center">计算机应用与发展协会成立至今共有3000人加入</p>
+					</div>
+				</div>
+				<div class="row section-top-40">
+					<div class="col-md-3 col-sm-6 col-xs-12  text-center text-white">
+						<span class="statics_options" id="Overseas">56</span>
+						<h4 class="text-white">办公室</h4>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12  text-center text-white">
+						<span class="statics_options" id="Investors">1600</span>
+						<h4 class="text-white">维修部</h4>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center text-white">
+						<span class="statics_options" id="Client">1400</span>
+						<h4 class="text-white">技术部</h4>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center text-white">
+						<span class="statics_options" id="Client">1400</span>
+						<h4 class="text-white">外宣部</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-------------Services Section End------------>
+		<!---------------What wecan do Section End--------->
+		<!-------------------Subscribe Section----------->
+
+		<!-----------------Subscribe section End-------->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 m-t-50">
+					<h2 class="heading underline">我们的团队</h2>
+					<p class="text-center">Great things in business are never done by one person. They're done by a team of
+						people.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 m-t-50">
+					<div class="meetour_back section-bottom-pad-40">
+						<div class="meet_img_pad">
+							<img src="images/man5.png" alt="girlimg" class="img-responsive img-thumbnail center-block">
+						</div>
+						<div class="img_underdata text-center">
+							<h5>曹洪军</h5>
+							<p>会长</p>
+							<p>Lorem ipsum dolor sit amet consectetuer dolor ipsum </p>
+							<ul class="social_icons list-inline">
+								<li class="facebook_icon">
+									<a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a>
+								</li>
+								<li class="twitter_icon ">
+									<a href="#"><i class="fa fa-twitter " aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 m-t-50">
+					<div class="meetour_back section-bottom-pad-40">
+						<div class="meet_img_pad">
+							<img src="images/man5.png" alt="girlimg" class="img-responsive img-thumbnail center-block">
+						</div>
+						<div class="img_underdata text-center">
+							<h5>曹洪军</h5>
+							<p>会长</p>
+							<p>Lorem ipsum dolor sit amet consectetuer dolor ipsum </p>
+							<ul class="social_icons list-inline">
+								<li class="facebook_icon">
+									<a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a>
+								</li>
+								<li class="twitter_icon ">
+									<a href="#"><i class="fa fa-twitter " aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 m-t-50">
+					<div class="meetour_back section-bottom-pad-40">
+						<div class="meet_img_pad">
+							<img src="images/man5.png" alt="girlimg" class="img-responsive img-thumbnail center-block">
+						</div>
+						<div class="img_underdata text-center">
+							<h5>曹洪军</h5>
+							<p>会长</p>
+							<p>Lorem ipsum dolor sit amet consectetuer dolor ipsum </p>
+							<ul class="social_icons list-inline">
+								<li class="facebook_icon">
+									<a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a>
+								</li>
+								<li class="twitter_icon ">
+									<a href="#"><i class="fa fa-twitter " aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 m-t-50">
+					<div class="meetour_back section-bottom-pad-40">
+						<div class="meet_img_pad">
+							<img src="images/man5.png" alt="girlimg" class="img-responsive img-thumbnail center-block">
+						</div>
+						<div class="img_underdata text-center">
+							<h5>曹洪军</h5>
+							<p>会长</p>
+							<p>Lorem ipsum dolor sit amet consectetuer dolor ipsum </p>
+							<ul class="social_icons list-inline">
+								<li class="facebook_icon">
+									<a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a>
+								</li>
+								<li class="twitter_icon ">
+									<a href="#"><i class="fa fa-twitter " aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-------------Meet Our Team End--------->
+		<section class="subscribe_section parallax m-t-70">
+			<div class="container m-t-50">
+				<div class="row section-top-25">
+					<div class="col-sm-7 col-md-6 col-xs-12 section-top-10">
+						<h3 class="text-white text-right m-t-70">Do You Want To Contact Us?</h3>
+					</div>
+					<div class="col-sm-5 col-md-6 m-t-50 section-bottom-pad-40  input_transparent">
+						<br />
+						<form action="subscribe.php" method="post" id="subscribe" autocomplete="off">
+							<div class="input-group sub_input">
+								<input type="email" name="email" id="email" class="form-control email" placeholder="Your QQ number"
+								 aria-describedby="email" required />
+								<span class="input-group-addon"><button type="submit" class="subscribe_btn"><i class="fa fa-paper-plane text-white"
+										 aria-hidden="true"></i></button></span>
+							</div>
+						</form>
+						<br />
+					</div>
+				</div>
+			</div>
+			<br />
+		</section>
+		<!-----------------------Body Section End---------------->
+		<!-------------Footer Start-------------------->
+
+		<!------------Footer Caret Shape------------>
+		<div class="shape section-top-50"></div>
+		<!-------------------Footer section End------------------>
+		<section class="footer_one">
+			<footer>
+				<div class="container">
+					<div class="row section-top-40">
+						<div class="col-md-3 col-sm-6 section-top-25">
+							<h4 class="text-white">About us</h4>
+							<hr />
+							<div class="row">
+								<div class="col-xs-12">
+									<p class="footer_text_color">微博: <a href="https://weibo.com/swunjixie?is_all=1" target="_blank">西南民族大学计算机协会_990</a></p>
+									<p class="footer_text_color">EMAIL:1619846099@qq.com</p>
+									<p class="footer_text_color">计小协QQ：1619846099</p>
+									<p class="footer_text_color">微信公众号：SMUJX1999</p>
+									<p class="footer_text_color">实验室地址：西南民族大学航空港校区博识楼323</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3  col-lg-3 col-sm-6 section-top-25">
+							<div class="row">
+								<div class="col-xs-12">
+								</div>
+								<div class="footer_contact">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3  col-lg-3 col-sm-6 section-top-25">
+							<div class="row">
+								<div class="col-xs-12">
+								</div>
+								<div class="footer_contact">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 section-top-25">
+							<div class="row">
+								<div class="col-xs-12">
+									<br />
+									<br />
+									<br />
+									<img src="images/erweima.png" />
+									<hr />
+								</div>
+
+								<div class="col-xs-12">
+									<div class="tweet">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+		<!------------------Copy rights------------------->
+		<!------------------Copy rights End------------------>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="vendors/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="vendors/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+		<script src="vendors/iCheck/js/icheck.js"></script>
+		<script src="vendors/countup/js/countUp.min.js"></script>
+		<script src="vendors/sweetalert2/js/sweetalert2.min.js"></script>
+		<script src="vendors/jribbble/js/jribbble.min.js"></script>
+		<!----------------------page Level Js-------------------------->
+		<script src="js/custom.js"></script>
+
+	</body>
+</html>
